@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html{
+    background-image:url(../public/background1.jpg) ;
+}
+
+.menu.active{
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu{
+    opacity: 0;
+}
