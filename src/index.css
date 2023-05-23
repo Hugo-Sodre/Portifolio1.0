@@ -2,16 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-
-html{
-    background-image:url(../public/background1.jpg) ;
+html {
+  background-color: #0c151d;
 }
 
-.menu.active{
-    opacity: 1;
-    visibility: visible;
+.menu.active {
+  opacity: 1;
+  visibility: visible;
 }
 
-.menu{
-    opacity: 0;
+.menu {
+  opacity: 0;
 }
