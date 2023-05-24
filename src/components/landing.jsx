@@ -7,18 +7,20 @@ function Landing() {
   return (
     <section className="font-bold h-screen flex flex-col items-center justify-center">
       <div className="flex flex-col gap-6 md:gap-6 md:flex-row">
-        <div className="rounded-full overflow-hidden ">
-          <div className="max-w-[250px] mx-auto">
-            <img
-              src={Perfil}
-              className="rounded-full object-cover w-full h-full border-4 border-[#FFE071]"
-              alt="Pefil"
-            />
+        <div className="flex flex-col md:flex-row">
+          <div className="rounded-full overflow-hidden ">
+            <div className="max-w-[250px] mx-auto">
+              <img
+                src={Perfil}
+                className="rounded-full object-cover w-full h-full border-4 border-[#FFE071]"
+                alt="Pefil"
+              />
+            </div>
           </div>
-        </div>
-        <div className="flex flex-col items-center">
-          <h1 className="text-2xl text-white p-2">Hugo Silva Sodré</h1>
-          <p className="text-[#A3ABB2]">Software Engineer</p>
+          <div className="flex flex-col items-center ">
+            <h1 className="text-2xl text-white p-2">Hugo Silva Sodré</h1>
+            <p className="text-[#A3ABB2]">Software Engineer</p>
+          </div>
         </div>
 
         <div className="flex flex-row items-center justify-center gap-6">

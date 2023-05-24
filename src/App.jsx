@@ -1,9 +1,7 @@
 import "./App.css";
 import About from "./components/about";
 import Landing from "./components/landing";
-import Techs from "./components/tecnologias";
 import Menu from "./assets/list.svg";
-import Exp from "./components/experiencia";
 
 import { useRef, useState } from "react";
 import { useEffect } from "react";
@@ -59,8 +57,6 @@ function App() {
         <main className="flex flex-col gap-6">
           <Landing />
           <About />
-          <Techs />
-          <Exp />
           <Footer />
         </main>
       </div>
