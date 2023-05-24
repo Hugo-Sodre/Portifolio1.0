@@ -19,7 +19,7 @@ function Landing() {
           </div>
           <div className="flex flex-col items-center ">
             <h1 className="text-2xl text-white p-2">Hugo Silva Sodré</h1>
-            <p className="text-[#A3ABB2]">Software Engineer</p>
+            <p className="text-[#A3ABB2]">Front end developer</p>
           </div>
         </div>
 
@@ -61,7 +61,6 @@ function Landing() {
               href="https://www.linkedin.com/in/hugo-silva-sodr%C3%A9-4495b3207/"
               target="_blank"
             >
-              {" "}
               Contato
             </a>
           </button>
