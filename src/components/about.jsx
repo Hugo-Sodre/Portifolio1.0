@@ -15,7 +15,7 @@ function About() {
             }
             onClick={() => setShowSkills(0)}
           >
-            Portifolio
+            Projetos
           </button>
           <button
             onClick={() => setShowSkills(1)}
