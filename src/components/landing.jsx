@@ -57,7 +57,13 @@ function Landing() {
             </div>
           </button>
           <button className="bg-[#171F26] px-6 py-3  rounded-lg text-sm text-[#A3ABB2]">
-            Contato
+            <a
+              href="https://www.linkedin.com/in/hugo-silva-sodr%C3%A9-4495b3207/"
+              target="_blank"
+            >
+              {" "}
+              Contato
+            </a>
           </button>
         </div>
       </div>
