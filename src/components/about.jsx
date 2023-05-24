@@ -4,8 +4,8 @@ function About() {
   const [showSkills, setShowSkills] = useState(1);
 
   return (
-    <div id="about" className="w-2/4 flex flex-col mx-auto  md:flex-row">
-      <div className="rounded-lg bg-[#171F26] px-4 py-2">
+    <div id="about" className="w-full flex flex-col mx-auto  ">
+      <div className="rounded-lg bg-[#171F26] px-4 py-2 md:w-2/4 mx-auto">
         <div className="flex flex-row gap-4 ">
           <button
             className={
